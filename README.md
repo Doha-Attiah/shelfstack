@@ -1,19 +1,22 @@
 # ShelfStack Library
 
-## Project Overview
-This project contains two implementations of the ShelfStack library using different programming languages:
-- JavaScript version
-- TypeScript version
-
----
+This project contains two implementations:
 
 ## Branches
 
-### JavaScript Branch
-- Branch name: `javascript`
-- Contains the JavaScript implementation of ShelfStack
+### javascript
+Contains the JavaScript version of ShelfStack.
 
-#### How to run:
-```bash
-npm install
-node src/library.js
+Run:
+node Shelf.js
+
+
+
+### typescript
+Contains the TypeScript version of ShelfStack.
+
+Setup:
+npx tsc
+
+Run:
+node dist/library.js
